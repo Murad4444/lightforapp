@@ -9,7 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
+  http: ^1.1.0        # Для связи с GitHub
+  ota_update: ^1.1.0  # Для скачивания и установки APK
+
 
 dev_dependencies:
   flutter_test:
